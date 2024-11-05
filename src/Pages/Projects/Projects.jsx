@@ -6,11 +6,11 @@ const Projects = () => {
     return <section className='py-32 overflow-hidden'>
         <div className="container flex flex-col gap-28">
             <div className="flex flex-col gap-6 pb-28 border-b border-[#949494]">
-                <h2 className="font-Syne font-bold text-white text-6xl leading-snug relative capitalize">
+                <h2 className="font-Syne font-bold text-white text-4xl lg:text-6xl leading-snug relative capitalize">
                     <img src={rect1} width="741" height="581" alt="rect" className="absolute start-0 -top-48 -z-10 w-[741px] h-[581px] max-w-fit" />
                     My Projects
                 </h2>
-                <p className="text-[#949494] text-lg">
+                <p className="text-[#949494] lg:text-lg">
                     Showcase About Works
                 </p>
             </div>
@@ -26,7 +26,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <strong className="text-center font-Syne text-2xl text-white">
+                        <strong className="text-center font-Syne text-lg lg:text-2xl text-white">
                             <Link to={`/project-details/${proj.id}`}>
                                 {proj.projectName}
                             </Link>

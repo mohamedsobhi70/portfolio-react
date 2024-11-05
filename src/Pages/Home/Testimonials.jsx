@@ -6,14 +6,14 @@ import rect1 from '../../assets/images/rect-1.svg'
 import qt from '../../assets/images/qt.svg'
 
 const Testimonials = () => {
-    return <section className='py-32'>
+    return <section className='py-24 lg:py-32'>
         <div className="container flex flex-col gap-16">
             <div className="flex items-end justify-between">
-                <h2 className="font-Syne font-bold text-white text-6xl leading-snug relative capitalize">
+                <h2 className="font-Syne font-bold text-white text-4xl lg:text-6xl leading-snug relative capitalize">
                     <img src={rect1} width="741" height="581" alt="rect" className="absolute end-0 top-1/2 -translate-y-1/2 -z-10 w-[741px] h-[581px] max-w-fit" />
                     Testimonials
                 </h2>
-                <img src={qt} width="161" height="93" alt="qt" />
+                <img src={qt} width="161" height="93" alt="qt" className='hidden lg:block'/>
             </div>
             <Swiper
                 className='w-full lg:w-3/4 lg:!ms-0'

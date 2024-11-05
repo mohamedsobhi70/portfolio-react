@@ -34,7 +34,7 @@
     @apply object-bottom duration-[4s];
   }
   .project-card .project-link {
-    @apply relative  transition-all duration-300 w-fit text-2xl text-white font-bold font-Syne max-w-[80%] before:content-[''] before:bg-[#FF9142] before:absolute before:w-12 before:h-[1px] before:top-1/2 before:-translate-y-1/2 before:start-[110%] before:-z-10 hover:before:start-0 hover:before:w-full hover:before:h-full before:transition-all before:duration-300;
+    @apply relative  transition-all duration-300 w-fit lg:text-2xl text-white font-bold font-Syne max-w-[80%] before:content-[''] before:bg-[#FF9142] before:absolute before:w-12 before:h-[1px] before:top-1/2 before:-translate-y-1/2 before:start-[110%] before:-z-10 hover:before:start-0 hover:before:w-full hover:before:h-full before:transition-all before:duration-300;
   }
   .work-item {
     @apply lg:col-span-2 flex flex-col items-center gap-8  relative before:animate-spin;

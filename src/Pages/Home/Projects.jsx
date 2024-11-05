@@ -6,7 +6,7 @@ const Projects = () => {
     const selectedProj = projects.slice(0, 4)
     return <section className="py-24" id='works'>
         <div className="container flex flex-col gap-20">
-            <h2 className="font-Syne font-bold text-white text-6xl leading-snug relative capitalize text-center">
+            <h2 className="font-Syne font-bold text-white text-4xl lg:text-6xl leading-snug relative capitalize text-center">
                 <img src={rect1} width="741" height="581" alt="rect" className="absolute end-0 top-1/2 -translate-y-1/2 -z-10" />
                 My Projects Highlight
             </h2>

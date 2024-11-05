@@ -20,7 +20,7 @@ const Home = () => {
     <section className="py-[200px]">
       <div className="container flex flex-col gap-[200px]">
         <div className="flex flex-col gap-24 items-center">
-          <h1 className="font-Syne text-center font-bold text-white text-7xl leading-snug relative capitalize">
+          <h1 className="font-Syne text-center font-bold text-white text-4xl lg:text-7xl leading-snug relative capitalize">
             <img src={rect1} width="741" height="581" alt="rect" className="absolute end-0 top-1/2 -translate-y-1/2 -z-10 w-[741px] h-[581px] max-w-fit" />
             Mohammed sobhi omar
             <br /> a frontend Developer
@@ -34,7 +34,7 @@ const Home = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="flex flex-col gap-20 items-start lg:col-span-7">
             <div className="flex flex-col gap-8 ">
-              <h2 className="font-Syne font-bold text-white text-6xl leading-snug relative capitalize">
+              <h2 className="font-Syne font-bold text-white text-4xl lg:text-6xl leading-snug relative capitalize">
                 <img src={rect1} width="741" height="581" alt="rect" className="absolute end-1/2 top-1/2 -translate-y-1/2 -z-10 w-[741px] h-[581px] max-w-fit" />
                 Let’s get know about me closer
               </h2>
