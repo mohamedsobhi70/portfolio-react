@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
-    return <header className='py-12'>
+    return <header className='py-8 lg:py-12'>
         <div className="container flex items-center justify-between gap-6">
             <Link to="/" className="font-Syne text-center font-bold text-white text-4xl leading-snug relative uppercase">
                 SOB_HI ;
