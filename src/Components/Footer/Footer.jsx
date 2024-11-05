@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="container flex flex-col gap-20 lg:gap-32">
             <div className="flex flex-col items-center gap-6">
                 <h2 className="text-[#FF9142] lg:text-2xl font-bold font-Syne">
-                    Get in Touch With Us
+                    Get in Touch With Me
                 </h2>
                 <Link to='mailto:sobhi7070@gmail.com' className="font-Syne font-bold text-white text-2xl lg:text-6xl leading-snug capitalize text-center underline">
                     sobhi7070@gmail.com
