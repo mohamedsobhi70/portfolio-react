@@ -28,7 +28,10 @@
     @apply aspect-square rounded-2xl overflow-hidden relative  before:content-['']  before:absolute before:size-full before:inset-0 before:bg-gradient-to-b before:from-transparent before:to-[#ff914263];
   }
   .project-card .project-card-img > img {
-    @apply size-full object-cover object-top;
+    @apply size-full object-cover object-top transition-all ease-linear duration-500;
+  }
+  .project-card .project-card-img:hover > img {
+    @apply object-bottom duration-[4s];
   }
   .project-card .project-link {
     @apply relative  transition-all duration-300 w-fit text-2xl text-white font-bold font-Syne max-w-[80%] before:content-[''] before:bg-[#FF9142] before:absolute before:w-12 before:h-[1px] before:top-1/2 before:-translate-y-1/2 before:start-[110%] before:-z-10 hover:before:start-0 hover:before:w-full hover:before:h-full before:transition-all before:duration-300;

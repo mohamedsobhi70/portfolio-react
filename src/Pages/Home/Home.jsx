@@ -10,11 +10,11 @@ const Home = () => {
       <div className="container flex flex-col gap-[200px]">
         <div className="flex flex-col gap-24 items-center">
           <h1 className="font-Syne text-center font-bold text-white text-7xl leading-snug relative capitalize">
-            <img src={rect1} width="741" height="581" alt="rect" className="absolute end-0 top-1/2 -translate-y-1/2 -z-10" />
+            <img src={rect1} width="741" height="581" alt="rect" className="absolute end-0 top-1/2 -translate-y-1/2 -z-10 w-[741px] h-[581px] max-w-fit" />
             Mohammed sobhi omar
             <br /> a frontend Developer
           </h1>
-          <Link to='#works' className="btn-primary text-sm font-bold flex items-center gap-6 py-6 px-10">
+          <Link to='#works' className="btn-primary font-bold flex items-center gap-6 py-6 px-10">
             Explore works
             <img src={arrow} width="18" height="12" alt="arrow" />
           </Link>
@@ -24,14 +24,14 @@ const Home = () => {
           <div className="flex flex-col gap-20 items-start lg:col-span-7">
             <div className="flex flex-col gap-8 ">
               <h2 className="font-Syne font-bold text-white text-6xl leading-snug relative capitalize">
-                <img src={rect1} width="741" height="581" alt="rect" className="absolute end-1/2 top-1/2 -translate-y-1/2 -z-10" />
+                <img src={rect1} width="741" height="581" alt="rect" className="absolute end-1/2 top-1/2 -translate-y-1/2 -z-10 w-[741px] h-[581px] max-w-fit" />
                 Let’s get know about me closer
               </h2>
               <p className="text-[#A8A8A8] text-lg leading-relaxed">
                 Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her wide range of work, spanning books, posters and web design.
               </p>
             </div>
-            <Link to='/about' className="btn-primary text-sm font-bold flex items-center gap-6 py-5 px-10">
+            <Link to='/about' className="btn-primary font-bold flex items-center gap-6 py-5 px-10">
               Discover More About Me
             </Link>
           </div>
