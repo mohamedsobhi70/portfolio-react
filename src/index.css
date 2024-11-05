@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-[#1A1A1A] font-Rubik;
+  }
+  .btn-primary {
+    @apply cursor-pointer rounded-full bg-[#FF9142] text-white;
+  }
+  .btn-secondary {
+    @apply cursor-pointer rounded-full border border-[#FF9142] text-[#FF9142];
+  }
+  .nav-link {
+    @apply opacity-50 transition-opacity duration-300 ease-in-out hover:opacity-100 text-white;
+  }
+  .nav-link.active {
+    @apply opacity-100;
+  }
+  .project-card {
+    @apply flex flex-col gap-8;
+  }
+  .project-card .project-card-img {
+    @apply aspect-square rounded-2xl overflow-hidden relative  before:content-['']  before:absolute before:size-full before:inset-0 before:bg-gradient-to-b before:from-transparent before:to-[#ff914263];
+  }
+  .project-card .project-card-img > img {
+    @apply size-full object-cover object-top;
+  }
+  .project-card .project-link {
+    @apply relative  transition-all duration-300 w-fit text-2xl text-white font-bold font-Syne max-w-[80%] before:content-[''] before:bg-[#FF9142] before:absolute before:w-12 before:h-[1px] before:top-1/2 before:-translate-y-1/2 before:start-[110%] before:-z-10 hover:before:start-0 hover:before:w-full hover:before:h-full before:transition-all before:duration-300;
+  }
 }
