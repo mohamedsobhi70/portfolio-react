@@ -16,7 +16,7 @@ const Header = () => {
                         <NavLink className='nav-link' to='/about'>About me</NavLink>
                     </li>
                     <li>
-                        <NavLink className='nav-link' to='/works'>My works</NavLink>
+                        <NavLink className='nav-link' to='/projects'>My Projects</NavLink>
                     </li>
                 </ul>
                 <Link to='/contact' className='py-4 px-9 rounded-full border-2 border-white border-opacity-30 text-white bg-[#030304] bg-opacity-50 hover:bg-opacity-100 opacity-80 hover:opacity-100 transition-all duration-300 ease-in-out'>

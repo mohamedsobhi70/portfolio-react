@@ -83,7 +83,7 @@ export const projects = [
         images: [project3, project3],
     },
     {
-        id: 5,
+        id: 10,
         projectName: "Jywar",
         describtion: "The fact that photography has different meanings to different people is one of the many components of its appeal. Photography is such an important part of our life that it is now very difficult to imagine the world without it. We cannot imagine a wedding without the opportunity to capture it on film, we would not be able to remember the growing up of children or the holidays if we did not have pictures.",
         thumbnail: project10,

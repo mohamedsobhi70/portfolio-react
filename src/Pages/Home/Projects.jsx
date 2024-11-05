@@ -3,7 +3,6 @@ import rect1 from '../../assets/images/rect-1.svg'
 import arrow from '../../assets/images/arrow-primary.svg'
 import { projects } from '../../data/projects.js'
 const Projects = () => {
-    // const firstProjects = projects.slice(0, 4);
 
     return <section className="py-24" id='works'>
         <div className="container flex flex-col gap-20">
@@ -14,7 +13,7 @@ const Projects = () => {
             <div className="flex flex-col gap-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-24 gap-x-7">
                     {
-                        projects.map(proj => <article key={proj.id} className="project-card">
+                        projects.slice(0,6).map(proj => <article key={proj.id} className="project-card">
                             <div className="project-card-img">
                                 <img src={proj.thumbnail} alt="project" />
                             </div>
