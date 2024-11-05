@@ -2,9 +2,20 @@ import Testimonials from "./Testimonials";
 import rect1 from '../../assets/images/rect-1.svg'
 import arrow from '../../assets/images/arrow.svg'
 import about from '../../assets/images/about.jpg'
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Projects from "./Projects";
+import { useEffect } from "react";
 const Home = () => {
+  // To move to a specific section
+  const location = useLocation();
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
   return <>
     <section className="py-[200px]">
       <div className="container flex flex-col gap-[200px]">

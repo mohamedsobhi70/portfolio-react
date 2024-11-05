@@ -37,8 +37,53 @@
     @apply relative  transition-all duration-300 w-fit text-2xl text-white font-bold font-Syne max-w-[80%] before:content-[''] before:bg-[#FF9142] before:absolute before:w-12 before:h-[1px] before:top-1/2 before:-translate-y-1/2 before:start-[110%] before:-z-10 hover:before:start-0 hover:before:w-full hover:before:h-full before:transition-all before:duration-300;
   }
   .work-item {
-    @apply lg:col-span-2 flex flex-col items-center gap-8;
+    @apply lg:col-span-2 flex flex-col items-center gap-8  relative before:animate-spin;
   }
+
+  .work-item::before {
+    @apply opacity-0 content-[''] absolute top-0 left-0 size-full transition-opacity duration-300 ease-in-out;
+    z-index: -2;
+    filter: blur(150px);
+    background-image: conic-gradient(
+      transparent 0%,
+      var(--clr, #FF9142) 10%,
+      var(--clr, #FF9142) 20%,
+      transparent 30%,
+      transparent 50%,
+      var(--clr, #FF9142) 60%,
+      var(--clr, #FF9142) 70%,
+      transparent 80%
+    );
+  }
+
+  .work-item-inner {
+    @apply relative p-1 flex;
+  }
+
+  .work-item-inner::before {
+    @apply opacity-0 content-[''] absolute -top-full -left-full size-[300%] transition-opacity duration-300 ease-in-out;
+    z-index: -2;
+    background-image: conic-gradient(
+      transparent 0%,
+      var(--clr, #FF9142) 10%,
+      var(--clr, #FF9142) 20%,
+      transparent 30%,
+      transparent 50%,
+      var(--clr, #FF9142) 60%,
+      var(--clr, #FF9142) 70%,
+      transparent 80%
+    );
+  }
+
+  .work-item:hover .work-item-inner::before,
+  .work-item:hover::before {
+    @apply opacity-100
+  }
+
+  .work-item-inner .work-item-content {
+    backdrop-filter: blur(30px);
+  }
+
   .work-item:nth-child(5n),
   .work-item:nth-child(5n-1) {
     @apply lg:col-span-3;
@@ -51,5 +96,14 @@
   }
   .work-item .work-item-img:hover > img {
     @apply object-bottom duration-[4s];
+  }
+
+  
+  .projcet-images-pagination .swiper-pagination-bullet {
+    @apply bg-white w-6 h-1 opacity-100 rounded-none !m-0 transition-all duration-300;
+  }
+  .projcet-images-pagination
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply bg-[#FF9142] w-10;
   }
 }

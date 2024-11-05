@@ -48,7 +48,7 @@ const Testimonials = () => {
                 <SwiperSlide >
                     <div className="flex flex-col gap-8">
                         <p className="text-xl capitalize text-[#949494] leading-normal">
-                            "Mohamed Sobhi did a very good job, he did more then expected, very good communication.
+                            "Mohamed Sobhi did a very good job, he did more than expected, very good communication.
                             Great work. Highly recommended."                        </p>
                         <strong className='text-white text-2xl font-Syne'>
                             -Jacob Montoya

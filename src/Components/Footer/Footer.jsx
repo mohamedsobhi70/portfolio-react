@@ -4,7 +4,7 @@ import call from '../../assets/images/call.svg'
 import github from '../../assets/images/github.svg'
 const Footer = () => {
 
-    return <footer className="pt-24 pb-16 bg-[#131313]">
+    return <footer className="pt-24 pb-16 bg-[#131313]" id="contact">
         <div className="container flex flex-col gap-32">
             <div className="flex flex-col items-center gap-6">
                 <h2 className="text-[#FF9142] text-2xl font-bold font-Syne">

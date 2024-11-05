@@ -3,7 +3,7 @@ import rect1 from '../../assets/images/rect-1.svg'
 import arrow from '../../assets/images/arrow-primary.svg'
 import { projects } from '../../data/projects.js'
 const Projects = () => {
-
+    const selectedProj = projects.slice(0, 4)
     return <section className="py-24" id='works'>
         <div className="container flex flex-col gap-20">
             <h2 className="font-Syne font-bold text-white text-6xl leading-snug relative capitalize text-center">
@@ -13,12 +13,12 @@ const Projects = () => {
             <div className="flex flex-col gap-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-24 gap-x-7">
                     {
-                        projects.slice(0,6).map(proj => <article key={proj.id} className="project-card">
-                            <div className="project-card-img">
-                                <img src={proj.thumbnail} alt="project" />
-                            </div>
+                        selectedProj.map(proj => <article key={proj.id} className="project-card">
+                            <Link to={`/project-details/${proj.id}`} className="project-card-img">
+                                    <img src={proj.thumbnail} alt="project" />
+                            </Link>
                             <h3 className="project-link">
-                                <Link to='/'>
+                                <Link to={`/project-details/${proj.id}`}>
                                     {proj.projectName}
                                 </Link>
                             </h3>

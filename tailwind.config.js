@@ -16,6 +16,9 @@ module.exports = {
       },
       backgroundImage: {
         'room-gradient': 'linear-gradient(180deg, rgba(0, 0, 0, 0) -6.78%, #000000 188.98%)',
+      },
+      animation: {
+        'spin': 'spin 3s linear infinite',
       }
     },
   },

@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header";
 import Home from "./Pages/Home/Home";
 import NotFound from "./Components/NotFound/NotFound";
 import Projects from "./Pages/Projects/Projects";
+import ProjectDetails from "./Pages/ProjectDetails/ProjectDetails";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/project-details/:id" element={<ProjectDetails />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
