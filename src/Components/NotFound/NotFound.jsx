@@ -4,7 +4,7 @@ import coding from '../../assets/images/coding.gif'
 const NotFound = () => {
     return <section className='py-8'>
         <div className="container flex flex-col justify-center md:items-center gap-12">
-            <div className="h-[600px] overflow-hidden w-full">
+            <div className="lg:h-[600px] overflow-hidden w-full">
                 <img src={coding} alt="page-not-found" className='w-full object-cover' />
             </div>
             <div className="flex flex-col gap-3">

@@ -68,6 +68,13 @@ import project115 from '../assets/images/project-11-5.png'
 import project121 from '../assets/images/project-12-1.png'
 import project122 from '../assets/images/project-12-2.png'
 
+import dp from '../assets/images/performance-dp.png'
+import resal from '../assets/images/performance-resal.png'
+import pangaea from '../assets/images/performance-pangaea.png'
+import peanut from '../assets/images/performance-peanut.png'
+import aanaab from '../assets/images/performance-aanaab.png'
+import aanaabjobs from '../assets/images/performance-aanaabjobs.png'
+
 export const projects = [
     {
         id: 1,
@@ -84,10 +91,10 @@ export const projects = [
         projectName: "DesignPeer Company",
         describtion: "The fact that photography has different meanings to different people is one of the many components of its appeal. Photography is such an important part of our life that it is now very difficult to imagine the world without it. We cannot imagine a wedding without the opportunity to capture it on film, we would not be able to remember the growing up of children or the holidays if we did not have pictures.",
         thumbnail: project2,
-        images: [project2, project22, project23, project24],
+        images: [project2, project22, project23, project24, dp],
         clr: "#8859fa",
         liveDemo: 'https://mohamedsobhi70.github.io/designpeer/',
-        usedTools: ['html5', 'javascript', 'css3' ,'jquery', 'es6','tailwindcss']
+        usedTools: ['html5', 'javascript', 'css3', 'jquery', 'es6', 'tailwindcss']
     },
 
     {
@@ -98,57 +105,57 @@ export const projects = [
         images: [project4, project42, project43, project44, project45, project46],
         clr: "#3da2b8",
         liveDemo: 'https://mohamedsobhi70.github.io/warraq/',
-        usedTools: ['html', 'javascript', 'css3','tailwindcss', 'jquery']
+        usedTools: ['html', 'javascript', 'css3', 'tailwindcss', 'jquery']
     },
     {
         id: 4,
         projectName: "Aanaab Jobs",
         describtion: "The fact that photography has different meanings to different people is one of the many components of its appeal. Photography is such an important part of our life that it is now very difficult to imagine the world without it. We cannot imagine a wedding without the opportunity to capture it on film, we would not be able to remember the growing up of children or the holidays if we did not have pictures.",
         thumbnail: project5,
-        images: [project52, project52, project53, project54, project55, project56],
+        images: [project5, project52, project53, project54, project55, project56, aanaabjobs],
         clr: "#8d51ff",
         liveDemo: 'https://mohamedsobhi70.github.io/aanaab',
-        usedTools: ['html','tailwindcss', 'javascript', 'css3', 'jquery']
+        usedTools: ['html', 'tailwindcss', 'javascript', 'css3', 'jquery']
     },
     {
         id: 5,
         projectName: "Aanaab Schools",
         describtion: "The fact that photography has different meanings to different people is one of the many components of its appeal. Photography is such an important part of our life that it is now very difficult to imagine the world without it. We cannot imagine a wedding without the opportunity to capture it on film, we would not be able to remember the growing up of children or the holidays if we did not have pictures.",
         thumbnail: project6,
-        images: [project6, project62, project63, project64, project65],
+        images: [project6, project62, project63, project64, project65, aanaab],
         clr: "#8447ff",
         liveDemo: 'https://mohamedsobhi70.github.io/aanaabschools/',
-        usedTools: ['html','tailwindcss', 'javascript', 'css3', 'jquery']
+        usedTools: ['html', 'tailwindcss', 'javascript', 'css3', 'jquery']
     },
     {
         id: 6,
         projectName: "Pangaea Trips",
         describtion: "The fact that photography has different meanings to different people is one of the many components of its appeal. Photography is such an important part of our life that it is now very difficult to imagine the world without it. We cannot imagine a wedding without the opportunity to capture it on film, we would not be able to remember the growing up of children or the holidays if we did not have pictures.",
         thumbnail: project7,
-        images: [project7, project72, project73, project74, project75],
+        images: [project7, project72, project73, project74, project75, pangaea],
         clr: "#309c98",
         liveDemo: 'https://mohamedsobhi70.github.io/pangaea/',
-        usedTools: ['html','tailwindcss', 'javascript', 'css3', 'jquery']
+        usedTools: ['html', 'tailwindcss', 'javascript', 'css3', 'jquery']
     },
     {
         id: 7,
         projectName: "Resal Platform",
         describtion: "The fact that photography has different meanings to different people is one of the many components of its appeal. Photography is such an important part of our life that it is now very difficult to imagine the world without it. We cannot imagine a wedding without the opportunity to capture it on film, we would not be able to remember the growing up of children or the holidays if we did not have pictures.",
         thumbnail: project8,
-        images: [project8, project82, project83, project84, project85],
+        images: [project8, project82, project83, project84, project85, resal],
         clr: "#2525ff",
         liveDemo: 'https://mohamedsobhi70.github.io/resalnew/',
-        usedTools: ['html','tailwindcss', 'javascript', 'css3', 'jquery']
+        usedTools: ['html', 'tailwindcss', 'javascript', 'css3', 'jquery']
     },
     {
         id: 8,
         projectName: "Peanuts E-Commerce",
         describtion: "The fact that photography has different meanings to different people is one of the many components of its appeal. Photography is such an important part of our life that it is now very difficult to imagine the world without it. We cannot imagine a wedding without the opportunity to capture it on film, we would not be able to remember the growing up of children or the holidays if we did not have pictures.",
         thumbnail: project3,
-        images: [project3, project32, project33, project34, project35, project36, project37],
+        images: [project3, project32, project33, project34, project35, project36, project37, peanut],
         clr: "#f7ab4b",
         liveDemo: 'https://peanuts-mohammedsobhi.netlify.app/',
-        usedTools: ['React js','tailwindcss', 'javascript', 'css3', 'jquery']
+        usedTools: ['React js', 'tailwindcss', 'javascript', 'css3', 'jquery']
     },
     {
         id: 9,
@@ -158,7 +165,7 @@ export const projects = [
         images: [project9, project92],
         clr: "#b63f36",
         liveDemo: 'https://mohamedsobhi70.github.io/mohanned',
-        usedTools: ['html','tailwindcss', 'javascript', 'css3']
+        usedTools: ['html', 'tailwindcss', 'javascript', 'css3']
     },
     {
         id: 10,
@@ -168,7 +175,7 @@ export const projects = [
         images: [project10, project102, project103],
         clr: "#0cb0a6",
         liveDemo: 'https://mohamedsobhi70.github.io/jywar',
-        usedTools: ['html','tailwindcss', 'javascript', 'css3']
+        usedTools: ['html', 'tailwindcss', 'javascript', 'css3']
     },
     {
         id: 11,
@@ -178,14 +185,14 @@ export const projects = [
         images: [project11, project112, project113, project114, project115],
         clr: "#f8ba17",
         liveDemo: 'https://mohamedsobhi70.github.io/enduvo',
-        usedTools: ['html','tailwindcss', 'javascript', 'css3']
+        usedTools: ['html', 'tailwindcss', 'javascript', 'css3']
     },
     {
         id: 12,
         projectName: "Dashboard",
         describtion: "The fact that photography has different meanings to different people is one of the many components of its appeal. Photography is such an important part of our life that it is now very difficult to imagine the world without it. We cannot imagine a wedding without the opportunity to capture it on film, we would not be able to remember the growing up of children or the holidays if we did not have pictures.",
         thumbnail: project121,
-        images: [project121,project122],
+        images: [project121, project122],
         clr: "red",
         liveDemo: 'https://mohamedsobhi70.github.io/dashboard/',
         usedTools: ['html', 'javascript', 'css3']

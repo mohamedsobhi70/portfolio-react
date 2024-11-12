@@ -38,9 +38,8 @@ const Home = () => {
                 <img src={rect1} width="741" height="581" alt="rect" className="absolute end-1/2 top-1/2 -translate-y-1/2 -z-10 w-[741px] h-[581px] max-w-fit" />
                 Let’s get know about me closer
               </h2>
-              <p className="text-[#A8A8A8] text-lg leading-relaxed">
-                Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her wide range of work, spanning books, posters and web design.
-              </p>
+              <p className="text-[#A8A8A8] text-lg leading-relaxed capitalize">
+                My name is Mohammed Sobhi, and I am a Frontend and UI Developer with over 4 years of experience in web development. I specialize in creating user-friendly, responsive, and visually appealing web applications using technologies such as HTML, CSS3, Tailwind CSS, JavaScript, ReactJS, and more. I have a strong background in translating design mockups from Figma and PSD into pixel-perfect code and have a passion for delivering seamless user experiences through efficient, high-quality code.              </p>
             </div>
             <Link to='/about' className="btn-primary font-bold flex items-center gap-6 py-5 px-10">
               Discover More About Me
