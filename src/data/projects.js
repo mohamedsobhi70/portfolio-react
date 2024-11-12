@@ -1,3 +1,7 @@
+import momtaz1 from '../assets/images/projects/momtaz/momtaz-homepage-teachers-listing-search-teacher-profile.jpg'
+import momtaz2 from '../assets/images/projects/momtaz/momtaz-teacher-availability-work-schedule.jpg'
+import momtaz3 from '../assets/images/projects/momtaz/momtaz-teacher-booking-flow.png'
+import momtaz4 from '../assets/images/projects/momtaz/momtaz-teacher-profile-creation.jpg'
 import project1 from '../assets/images/project-1.png'
 import project12 from '../assets/images/project-1-2.png'
 import project13 from '../assets/images/project-1-3.png'
@@ -34,6 +38,15 @@ import project54 from '../assets/images/project-5-4.png'
 import project55 from '../assets/images/project-5-5.png'
 import project56 from '../assets/images/project-5-6.png'
 
+import pangaea1 from '../assets/images/projects/pangaea/pangaea-b2b-desktop.jpg'
+import pangaea2 from '../assets/images/projects/pangaea/pangaea-b2b-mobile.jpg'
+import pangaea3 from '../assets/images/projects/pangaea/pangaea-booking-flow-desktop.jpg'
+import pangaea4 from '../assets/images/projects/pangaea/pangaea-booking-flow-mobile.jpg'
+import pangaea5 from '../assets/images/projects/pangaea/pangaea-hero-dropdown.jpg'
+import pangaea6 from '../assets/images/projects/pangaea/pangaea-homepage.jpg'
+import pangaea7 from '../assets/images/projects/pangaea/pangaea-mobile-app-navigation.jpg'
+import pangaea8 from '../assets/images/projects/pangaea/pangaea-trip-page.jpg'
+import pangaea9 from '../assets/images/projects/pangaea/same-day-trip-booking-flow.jpg'
 import project6 from '../assets/images/project-6.png'
 import project62 from '../assets/images/project-6-2.png'
 import project63 from '../assets/images/project-6-3.png'
@@ -81,7 +94,7 @@ export const projects = [
         projectName: "Momtaz Platform",
         describtion: "Feel free to check out the Project by visiting the Live Link.",
         thumbnail: project1,
-        images: [project1, project12, project13, project14, project15, project16, project17, project18],
+        images: [momtaz1, momtaz2, momtaz3, momtaz4, project1, project12, project13, project14, project15, project16, project17, project18],
         clr: "#eaddf9",
         liveDemo: 'https://momtaz-mohammedsobhi.netlify.app/',
         usedTools: ['react js', 'tailwindcss', 'javascript', 'css3', 'es6', 'html']
@@ -132,7 +145,7 @@ export const projects = [
         projectName: "Pangaea Trips",
         describtion: "The fact that photography has different meanings to different people is one of the many components of its appeal. Photography is such an important part of our life that it is now very difficult to imagine the world without it. We cannot imagine a wedding without the opportunity to capture it on film, we would not be able to remember the growing up of children or the holidays if we did not have pictures.",
         thumbnail: project7,
-        images: [project7, project72, project73, project74, project75, pangaea],
+        images: [pangaea1, pangaea2, pangaea3, pangaea4, pangaea5, pangaea6, pangaea7, pangaea8, pangaea9, project7, project72, project73, project74, project75, pangaea],
         clr: "#309c98",
         liveDemo: 'https://mohamedsobhi70.github.io/pangaea/',
         usedTools: ['html', 'tailwindcss', 'javascript', 'css3', 'jquery']
