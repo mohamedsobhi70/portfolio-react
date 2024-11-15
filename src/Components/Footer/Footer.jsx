@@ -3,7 +3,6 @@ import linkedin from '../../assets/images/linkedin.svg'
 import call from '../../assets/images/call.svg'
 import github from '../../assets/images/github.svg'
 const Footer = () => {
-
     return <footer className="lg:pt-24 py-16 bg-[#131313]" id="contact">
         <div className="container flex flex-col gap-20 lg:gap-32">
             <div className="flex flex-col items-center gap-6">
@@ -15,21 +14,21 @@ const Footer = () => {
                 </Link>
             </div>
 
-            <div className="flex justify-center gap-8 lg:gap-24">
+            <div className="flex justify-center gap-8 lg:gap-16">
                 <Link to='https://www.linkedin.com/in/mohamed-sobhi-omer' target="_blank">
-                    <img src={linkedin} width='65' height='65' alt="linkedin" />
+                    <img src={linkedin} width='56' height='56' alt="linkedin" />
                     <span className="sr-only">
                         Linkedin
                     </span>
                 </Link>
                 <Link to='https://wa.me/+201550417652' target="_blank">
-                    <img src={call} width='65' height='65' alt="linkedin" />
+                    <img src={call} width='56' height='56' alt="linkedin" />
                     <span className="sr-only">
                         Whatssapp
                     </span>
                 </Link>
                 <Link to='https://github.com/mohamedsobhi70' target="_blank">
-                    <img src={github} width='65' height='65' alt="linkedin"/>
+                    <img src={github} width='56' height='56' alt="linkedin" />
                     <span className="sr-only">
                         Github
                     </span>

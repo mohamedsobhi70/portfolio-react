@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import cv from '../../assets/MohamedSobhi_UI_DEVELOPER.pdf'
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -29,9 +30,14 @@ const Header = () => {
                         <NavLink className='nav-link' to='/projects' onClick={() => setIsOpen(false)}>My Projects</NavLink>
                     </li>
                 </ul>
-                <Link to='/#contact' onClick={() => setIsOpen(false)} className='py-4 px-9 rounded-full border-2 border-white border-opacity-30 text-white bg-[#030304] bg-opacity-50 hover:bg-opacity-100 opacity-80 hover:opacity-100 transition-all duration-300 ease-in-out'>
-                    Contact
-                </Link>
+                <div className="flex flex-col lg:flex-row gap-6">
+                    <Link to='/#contact' onClick={() => setIsOpen(false)} className='py-4 px-9 rounded-full border-2 border-white border-opacity-30 text-white bg-[#030304] bg-opacity-50 hover:bg-opacity-100 opacity-80 hover:opacity-100 transition-all duration-300 ease-in-out'>
+                        Contact
+                    </Link>
+                    <a href={cv} download='MohamedSobhi_UI_DEVELOPER' onClick={() => setIsOpen(false)} className='py-4 px-9 rounded-full border-2 border-white border-opacity-30 text-white bg-[#030304] bg-opacity-50 hover:bg-opacity-100 opacity-80 hover:opacity-100 transition-all duration-300 ease-in-out'>
+                        download cv
+                    </a>
+                </div>
             </nav>
         </div>
     </header>;

@@ -22,8 +22,7 @@ const Home = () => {
         <div className="flex flex-col gap-24 items-center">
           <h1 className="font-Syne text-center font-bold text-white text-4xl lg:text-7xl leading-snug lg:leading-snug relative capitalize">
             <img src={rect1} width="741" height="581" alt="rect" className="absolute end-0 top-1/2 -translate-y-1/2 -z-10 w-[741px] h-[581px] max-w-fit" />
-            Mohammed sobhi omar
-            <br /> a frontend Developer
+            Dynamic Interfaces Tailored for Your Digital Experience
           </h1>
           <Link to='#works' className="btn-primary font-bold flex items-center gap-6 py-6 px-10">
             Explore works
@@ -45,13 +44,9 @@ const Home = () => {
               Discover More About Me
             </Link>
           </div>
-          <div className="lg:col-span-5 relative">
-            <svg className="absolute rotate-90 end-16 -top-20" width="55" height="178" viewBox="0 0 55 178" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.5" y="0.5" width="54" height="177" rx="27" stroke="#FF9142" />
-            </svg>
-            <svg className="absolute -start-[27px] bottom-24" width="55" height="178" viewBox="0 0 55 178" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.5" y="0.5" width="54" height="177" rx="27" stroke="#FF9142" />
-            </svg>
+          <div className="lg:col-span-5 relative 
+          before:content-[''] before:absolute before:rotate-90 before:end-16 before:-top-20 before:w-[55px] before:h-[178px] before:rounded-full before:border before:border-[#FF9142]
+          after:content-[''] after:absolute after:-start-[27px] after:bottom-24 after:w-[55px] after:h-[178px] after:rounded-full after:border after:border-[#FF9142]">
             <div className="rounded-[30px] overflow-hidden">
               <img src={about} className="size-full object-cover" alt="about" />
             </div>
